@@ -332,8 +332,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ecee3da1df2c64188309eac6730486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  isGoingRight: 0
   DetectCollisions: 0
-  movementSpeed: 300
+  movementSpeed: 30
   delayBetweenMoves: 0
   movementType: 1
   swayDistance: 5
@@ -357,7 +359,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &79309599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -416,7 +418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79309595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -80.5, y: 87.3, z: 0}
+  m_LocalPosition: {x: -89.6, y: 99, z: 0}
   m_LocalScale: {x: 6.2829175, y: 4.8424354, z: 5.8466935}
   m_Children: []
   m_Father: {fileID: 0}
@@ -619,8 +621,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401299239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 222.4, y: 87.9, z: 0}
-  m_LocalScale: {x: 2.3158567, y: 2.2851174, z: 0.7141966}
+  m_LocalPosition: {x: 232.5, y: 105.1, z: 0}
+  m_LocalScale: {x: 1.7814815, y: 1.7578353, z: 0.5493985}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -865,7 +867,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 64
+  orthographic size: 16
   m_Depth: -30
   m_CullingMask:
     serializedVersion: 2
@@ -1690,7 +1692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gustPosition: {fileID: 0}
   isGusted: 0
-  gustDirection: {x: 0, y: 0}
+  maxPushSpeed: 80
   TMPro: {fileID: 816814963}
 --- !u!58 &1192745038
 CircleCollider2D:
@@ -2047,8 +2049,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316752348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.92, y: 142, z: 0}
-  m_LocalScale: {x: 15.008581, y: 1.310551, z: 1}
+  m_LocalPosition: {x: 24.8, y: 143.99, z: 0}
+  m_LocalScale: {x: 15.366401, y: 1.1515211, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2440,7 +2442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381784099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -142.4, y: 1.8, z: 0}
+  m_LocalPosition: {x: -135.9, y: -11.9, z: 0}
   m_LocalScale: {x: 4.195109, y: 3.2332978, z: 3.903842}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2458,8 +2460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ecee3da1df2c64188309eac6730486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  isGoingRight: 0
   DetectCollisions: 0
-  movementSpeed: 300
+  movementSpeed: 40
   delayBetweenMoves: 0
   movementType: 1
   swayDistance: 5
@@ -2483,7 +2487,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1625566353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,8 +2699,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ecee3da1df2c64188309eac6730486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0, z: 0}
+  isGoingRight: 0
   DetectCollisions: 0
-  movementSpeed: 300
+  movementSpeed: 30
   delayBetweenMoves: 0
   movementType: 1
   swayDistance: 5
@@ -2720,7 +2726,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1625566357
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3054,8 +3060,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052172000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.87, y: -92, z: 0}
-  m_LocalScale: {x: 14.795449, y: 1.310551, z: 1}
+  m_LocalPosition: {x: 24.55, y: -92, z: 0}
+  m_LocalScale: {x: 15.340697, y: 1.310551, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

@@ -56,8 +56,8 @@ public class Gust : MonoBehaviour
         {
             if(rb != r)
             {
-                Debug.Log(rbList.Length);
-                Debug.Log(r.gameObject.name);
+//                Debug.Log(rbList.Length);
+//                Debug.Log(r.gameObject.name);
                 Vector2 direction = r.transform.position - gameObject.transform.position;
                 if (Vector2.Distance(r.transform.position, gameObject.transform.position) <= gustRadius)
                 {
