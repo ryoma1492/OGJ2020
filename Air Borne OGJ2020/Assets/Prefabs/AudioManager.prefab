@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7804822417628250310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8191250118062777084}
+  - component: {fileID: 6842508433255180586}
+  - component: {fileID: 5843974600002599478}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8191250118062777084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804822417628250310}
+  m_LocalRotation: {x: -0, y: -0, z: -0.5883214, w: 0.8086272}
+  m_LocalPosition: {x: -550.8, y: 655.5, z: 0}
+  m_LocalScale: {x: 1.6071107, y: 5.694698, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6842508433255180586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804822417628250310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edcdc9f571639bd44b2338d37a29e09c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PinwheelTurn
+    audioClip: {fileID: 8300000, guid: 88f4da15a10bd8a408646016697281a6, type: 3}
+    volume: 0.25
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Blank
+    audioClip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Awesome
+    audioClip: {fileID: 8300000, guid: 80b127ea7c9fbb049961bbd8430f84db, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Pop1
+    audioClip: {fileID: 8300000, guid: fd1a9b8deb16ac84f8be214f4df969c2, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Pop2
+    audioClip: {fileID: 8300000, guid: ae6b4602d4539584ebb2ea0a77799bf6, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Teacher1
+    audioClip: {fileID: 8300000, guid: 148a0d6d2922e7640b79f4e242668a7f, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Teacher2
+    audioClip: {fileID: 8300000, guid: ad5313e638af4c746addd2cf5d4ebcac, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: ThatsAmazing
+    audioClip: {fileID: 8300000, guid: e89292dd4c99fe44cbdc892846d60805, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: VeryCool
+    audioClip: {fileID: 8300000, guid: 692a46d8755860346a151e2109f41a3f, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: VeryVeryVeryCool
+    audioClip: {fileID: 8300000, guid: 2c22ab070cc1a8147b66d777bb374182, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  - name: DreamerDrums
+    audioClip: {fileID: 8300000, guid: 757385efaa9c70c46ae65cbb2043f7da, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 1
+    source: {fileID: 0}
+  - name: Dreamer7
+    audioClip: {fileID: 8300000, guid: 921373094a550ad46aaeab58b4ca7d5f, type: 3}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 1
+    source: {fileID: 0}
+  - name: AudioManager
+    audioClip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    startTime: 0
+    isLoop: 0
+    source: {fileID: 0}
+  delay: 1
+--- !u!114 &5843974600002599478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804822417628250310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46ff4a4266fda44083db664f634cbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildIndexOfScoreboard: 9

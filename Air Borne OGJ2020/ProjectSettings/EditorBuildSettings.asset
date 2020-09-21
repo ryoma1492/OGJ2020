@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: fbef964594a2e40b8abb8b26e15f01eb
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 6381acbbf108f1b4ab87f176ab4afbb7
+  - enabled: 1
+    path: Assets/Scenes/Stage 1 Final.unity
+    guid: db903e5f75aa9354ca0b6c6e45d33b18
+  - enabled: 1
+    path: Assets/Scenes/Stage 2 - Math.unity
+    guid: 1c7e35d04eb99ca41abb3ed9ff068952
+  - enabled: 1
+    path: Assets/Scenes/Stage 3 - English.unity
+    guid: 3a17c788a4aa25e4f9754cc0509481ce
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 - History.unity
+    guid: 22dce8ccd9ac65d418ef1e017edd344e
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 - Science.unity
+    guid: 28afa9a869a111a47af13a685865969e
+  - enabled: 1
+    path: Assets/Scenes/Stage 6 - Physical education.unity
+    guid: 17a60019d116d3842b427bdf8410aea5
+  - enabled: 1
+    path: Assets/Scenes/Stage 7 - Lunch.unity
+    guid: 25db4c0ca7c0916428863533536ca3fb
+  - enabled: 1
+    path: Assets/Scenes/End-Credits-LifeStory.unity
+    guid: c5b5ecf7d0dfac440ab97527132ec9c4
+  - enabled: 1
+    path: Assets/Scenes/RaisedHand.unity
+    guid: 771ca0102dc19e045b46f272449d1768
   m_configObjects: {}
